@@ -1,0 +1,204 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #F7CFD8;
+}
+
+body p{
+    display: flex;
+    justify-content: center;
+    font-family: "Chewy", system-ui;
+}
+
+.banner{
+    width: 100%;
+    background-color: #ffffff;
+
+   
+    
+}
+
+.logo {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding-left: 38%;
+    
+    
+}
+
+.links{
+    background-color: #FFDEDE;
+    display: flex;
+    justify-content: space-evenly;  
+    margin: 1px 0px 0px 0px;
+    
+}
+
+.link{
+    color: black;
+}
+
+.bienvenida-texto{
+    margin: 8px;
+    color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    background-image: url(./Imagenes\ RJC/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: double underline;
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 250%;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5% 0 5% 0;
+
+
+}
+
+.parrafo-bvn{
+margin: 8px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Chewy", system-ui;
+    
+}
+
+.juegos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.div-parrafo{
+    font-size: 100%;
+    font-family: "Chewy", system-ui;
+}
+
+.footer{
+    background-color: #F5EEDD;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10%;
+}
+
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;       
+   width: 26%;
+   margin: 20%;
+   padding-left: 10%;
+    
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+}
+
+.juego-img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.pie{
+    background-color: black;
+    color: white;
+}
+
+
+.div-galeria {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    padding: 20px;          
+}
+
+
+.juegos-galeria {
+    max-width: 50%;        
+    height: auto;          
+    display: block;        
+    margin: 0 auto;  
+    border: 6px black solid;
+}
+
+
+.p-galeria{
+    font-size: 120%;
+    font-family: "Chewy", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+    width: 40%;
+
+}
+
+.div-contacto{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.telefono{
+    height: 30%;
+    width: 30%;
+}
+
+.facebook{
+    height: 30%;
+    width: 30%;
+}
+
+
+.div-pyr{
+    margin: 10%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pyr{
+    list-style: none;
+    margin: 3% 0 3% 0;
+    font-size: auto;
+    font-family: "Chewy", system-ui;
+}
+
+.carrusel{
+    width: 50%;
+    height: 40%;
+    }
