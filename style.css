@@ -229,6 +229,8 @@ margin: 8px;
         "img6 txt6 txt6";
         grid-template-columns: 30% 40% 30% 30%;
         grid-template-rows: 10% 20% 20% 15%;
+        gap: 4%;
+        padding-top: 2%;
     }
     
     .img1{
@@ -262,4 +264,13 @@ margin: 8px;
     }
     .txt6{
         grid-area: txt6;
+    }
+
+    .parrafos{
+        font-size: 150%;
+        font-family: "Chewy", system-ui;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
     }
