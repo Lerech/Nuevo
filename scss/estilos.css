@@ -188,6 +188,9 @@ body p {
   align-items: center;
   flex-direction: column;
 }
+.contacto .form-contacto:focus {
+  background-color: whitesmoke;
+}
 
 .div-pyr {
   margin: 5%;
