@@ -129,7 +129,7 @@
 }
 
 body {
-  background-color: #F7CFD8;
+  background: linear-gradient(180deg, rgb(247, 207, 216) 8%, rgb(245, 245, 220) 39%, rgb(247, 207, 216) 60%);
 }
 
 body p {
