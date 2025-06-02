@@ -129,7 +129,7 @@
 }
 
 body {
-  background-color: #F7CFD8;
+  background: radial-gradient(circle, rgb(247, 207, 216) 8%, rgb(245, 245, 220) 59%, rgb(247, 207, 216) 92%);
 }
 
 body p {
@@ -148,7 +148,7 @@ body p {
 .parrafos .parrafo-bvn {
   margin: 8px;
   font-family: "Chewy", system-ui;
-  font-size: 150%;
+  font-size: 10%;
 }
 
 .div-parrafo .parrafo-bvn-div {
