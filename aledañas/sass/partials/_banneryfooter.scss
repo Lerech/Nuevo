@@ -1,0 +1,52 @@
+
+
+// banner y footer //
+.banner {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  
+  @at-root .logo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-left: 38%;
+    
+    a {
+      display: block;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+
+.footer {
+  background-color: #FFEEDD;
+  border: #F4E7E1 solid 8px;
+  .footer-div {
+  display: flex;
+    
+  justify-content: space-evenly;
+    .footer-img {
+      
+      width: 10%;
+      
+    }
+    img {
+        
+        max-width: 100%;
+      }
+  }
+  
+}
+
+.pie{
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin: 0px 0px 0px 0px;
+
+}
