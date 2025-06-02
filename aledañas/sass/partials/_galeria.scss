@@ -33,7 +33,6 @@
     align-items: center;
     margin: 10px 0px 10px 0px;
     width: 80%;
-    height: auto;
     height: 80%;
         .texto1{
         grid-area: texto1;
@@ -61,25 +60,50 @@
  
 }
 
-    .cont-grid{
-        height: 100%;
-        width: 100%;
-        gap: 3%;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-    .cont-grid{
-        display: grid;
-        grid-template-areas:
-        "img1 texto1 texto1"
+.cont-grid {
+    display: grid;
+    grid-template-areas:
+        "img1 textol textol"
         "texto3 texto3 img3"
         "img4 texto4 texto4"
         "txt5 txt5 img5"
         "img6 txt6 txt6";
-        grid-template-columns: 30% 40% 30% 30%;
-        grid-template-rows: 10% 20% 20% 15%;
-        gap: 4%;
-        padding-top: 2%;
-    }
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+    padding-top: 2%;
+.img1
+ { grid-area: img1;
+}
+.textol
+ { grid-area: textol;
+}
+.texto3
+ { grid-area: texto3;
+}
+.img3
+ { grid-area: img3;
+}
+.img4 
+{ grid-area: img4;
+}
+.texto4
+{ grid-area: texto4;
+}
+.txt5 
+{grid-area: txt5;
+ }
+.img5 
+{grid-area: img5; 
+}
+.img6 
+{grid-area: img6; 
+}
+.txt6 
+{grid-area: txt6; 
+}
+}
+
+
     
     
