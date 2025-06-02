@@ -12,21 +12,23 @@ body p{
 }
 
 .parrafos{
- font-size: 150%;
-font-family: "Chewy", system-ui;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 10px 0px 10px 5px;
+margin: 10px 0px 0px 5px;
 padding-bottom: 10px;
-    .parrafo-bvn{
+    .parrafo-bvn {
     margin: 8px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
     font-family: "Chewy", system-ui;
+    font-size: 150%;
+
     
 }
 
-       
-    }
+}
+.div-parrafo{
+    .parrafo-bvn-div{
+    font-size: 150%;
+    font-family: "Chewy", system-ui;
+}
+}
