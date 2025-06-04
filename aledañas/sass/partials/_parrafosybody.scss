@@ -1,26 +1,27 @@
-
-
+@import "_variables";
 body{
     
 background: linear-gradient(180deg,rgba(247, 207, 216, 1) 51%, rgba(245, 245, 220, 1) 55%, rgba(247, 207, 216, 1) 60%);
     
 }
+
+
+
 body p{
     display: flex;
     justify-content: center;
-    font-family: "Chewy", system-ui;
+    font-family: $fuente;
 }
 
 .parrafos{
-display: flex;
-justify-content: center;
+@extend p;
 align-items: center;
 margin: 10px 0px 0px 5px;
 padding-bottom: 10px;
 font-size: 150%;
     .parrafo-bvn{
     margin: 8px;
-    font-family: "Chewy", system-ui;
+    font-family: $fuente;
     font-size: 120%;
 
     
@@ -30,6 +31,6 @@ font-size: 150%;
 .div-parrafo{
     .parrafo-bvn-div{
     font-size: 120%;
-    font-family: "Chewy", system-ui;
+    font-family: $fuente;
 }
 }

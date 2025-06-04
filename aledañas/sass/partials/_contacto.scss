@@ -1,9 +1,7 @@
 
 
 .contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     flex-direction: column;
     .form-contacto:focus {
         background-color: whitesmoke;

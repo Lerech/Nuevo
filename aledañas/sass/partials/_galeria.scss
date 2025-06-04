@@ -1,4 +1,5 @@
 
+@import "_variables";
 
 .div-galeria {    
     padding: 10px;
@@ -27,16 +28,13 @@
 }
        p {
     font-size: 120%;
-    font-family: "Chewy", system-ui;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: $fuente;
+    @include flex;
     margin: 10px 0px 10px 0px;
-    width: 80%;
-    height: 80%;
+    @include tamano (80%, 80%);
         .texto1{
         grid-area: texto1;
-       
+
     }
 
     .texto3{

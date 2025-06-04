@@ -23,6 +23,7 @@
 }
 .footer .footer-div {
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
 }
 .footer .footer-div .footer-img {
@@ -62,7 +63,7 @@
 .div-galeria .juegos-galeria .img6 {
   grid-area: img6;
 }
-.div-galeria p {
+.div-galeria p, .div-galeria .parrafos {
   font-size: 120%;
   font-family: "Chewy", system-ui;
   display: flex;
@@ -72,19 +73,19 @@
   width: 80%;
   height: 80%;
 }
-.div-galeria p .texto1 {
+.div-galeria p .texto1, .div-galeria .parrafos .texto1 {
   grid-area: texto1;
 }
-.div-galeria p .texto3 {
+.div-galeria p .texto3, .div-galeria .parrafos .texto3 {
   grid-area: texto3;
 }
-.div-galeria p .texto4 {
+.div-galeria p .texto4, .div-galeria .parrafos .texto4 {
   grid-area: texto4;
 }
-.div-galeria p .txt5 {
+.div-galeria p .txt5, .div-galeria .parrafos .txt5 {
   grid-area: txt5;
 }
-.div-galeria p .txt6 {
+.div-galeria p .txt6, .div-galeria .parrafos .txt6 {
   grid-area: txt6;
 }
 
@@ -131,15 +132,13 @@ body {
   background: linear-gradient(180deg, rgb(247, 207, 216) 51%, rgb(245, 245, 220) 55%, rgb(247, 207, 216) 60%);
 }
 
-body p {
+body p, body .parrafos {
   display: flex;
   justify-content: center;
   font-family: "Chewy", system-ui;
 }
 
 .parrafos {
-  display: flex;
-  justify-content: center;
   align-items: center;
   margin: 10px 0px 0px 5px;
   padding-bottom: 10px;
@@ -153,6 +152,31 @@ body p {
 
 .div-parrafo .parrafo-bvn-div {
   font-size: 120%;
+  font-family: "Chewy", system-ui;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contacto .form-contacto:focus {
+  background-color: whitesmoke;
+}
+
+.div-pyr {
+  margin: 5%;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div-pyr .pyr {
+  list-style: none;
+  margin: 3% 0 3% 0;
+  font-size: 180%;
   font-family: "Chewy", system-ui;
 }
 
@@ -180,31 +204,6 @@ body p {
 }
 .links .link {
   color: black;
-}
-
-.contacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.contacto .form-contacto:focus {
-  background-color: whitesmoke;
-}
-
-.div-pyr {
-  margin: 5%;
-  padding: 3%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.div-pyr .pyr {
-  list-style: none;
-  margin: 3% 0 3% 0;
-  font-size: 180%;
-  font-family: "Chewy", system-ui;
 }
 
 .carrusel {
