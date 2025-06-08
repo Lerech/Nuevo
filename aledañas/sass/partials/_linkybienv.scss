@@ -18,16 +18,23 @@
 
 }
 
+.links { 
+  background-color: #FFDEDE;
+  display: flex; 
+  justify-content: space-evenly; 
 
-.links{
-    background-color: #FFDEDE;
-    display: flex;
-    justify-content: space-evenly;  
-    margin: 1px 0px 0px 0px;
-    
-    .link{
-    color: black;
-}
-    
-}
+  .link { 
+  color: black;
+  text-decoration: underline
+  }
 
+
+}
+  .links ul{
+    list-style: none; 
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+  }

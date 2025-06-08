@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .banner {
   width: 100%;
   background-color: hsl(0, 0%, 100%);
@@ -200,10 +206,19 @@ body p, body .parrafos {
   background-color: #FFDEDE;
   display: flex;
   justify-content: space-evenly;
-  margin: 1px 0px 0px 0px;
 }
 .links .link {
   color: black;
+  text-decoration: underline;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .carrusel {
